@@ -477,7 +477,7 @@ textarea,
   content: var(--main-text);
   color: var(--maintext-color);
   font-size: 14px;
-  text-shadow: 0 0 3px #000;
+  /* text-shadow: 0 0 3px #000;  */
 }
 .typeWindows_a934d8 > .wordmark_a934d8:after {
   content: var(--description-text);
