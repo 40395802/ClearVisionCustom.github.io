@@ -6,9 +6,11 @@
   --hover-color: #1e63b3;
   --success-color: #43b581;
   --danger-color: #982929;
-  --enbedtext-color: #2780e6;
+  --embedtext-color: #2780e6;
   --main-text: "ClearVision";
+  --maintext-color: hsla(0, 0%, 100%, 0.7);
   --description-text: "6.9.0";
+  --descriptiontext-color: hsla(0, 0%, 100%, 0.3);
   --channel-unread: var(--main-color);
   --channel-color: rgba(255, 255, 255, 0.3);
   --muted-color: rgba(255, 255, 255, 0.1);
@@ -473,13 +475,13 @@ textarea,
 }
 .typeWindows_a934d8 > .wordmark_a934d8:before {
   content: var(--main-text);
-  color: hsla(0, 0%, 100%, 0.7);
+  color: var(--maintext-color);
   font-size: 14px;
   text-shadow: 0 0 3px #000;
 }
 .typeWindows_a934d8 > .wordmark_a934d8:after {
-  content: var(--main-text);
-  color: hsla(0, 0%, 100%, 0.3);
+  content: var(--description-text);
+  color: var(--descriptiontext-color);
   font-family: var(--code-font);
   font-size: 10px;
 }
@@ -535,7 +537,7 @@ textarea,
   text-shadow: 0 0 3px;
 }
 .typeMacOS_a934d8:after {
-  content: var(--description-text);
+  content: '6.9.0';
   color: hsla(0, 0%, 100%, 0.3);
 }
 
@@ -4908,7 +4910,7 @@ code {
   color: hsla(0, 0%, 100%, 0.7);
 }
 .embed_b0068a .embedLink_b0068a {
-  color: var(--main-color);
+  color: var(--embedtext-color);
   transition: all 0.1s ease-in-out;
 }
 .embed_b0068a .embedLink_b0068a:hover {
@@ -4916,7 +4918,7 @@ code {
   text-decoration: none !important;
 }
 .embed_b0068a .embedTitleLink_b0068a {
-  color: var(--enbedtext-color) !important;
+  color: var(--embedtext-color) !important;
 }
 .embed_b0068a .embedVideoActions_b0068a .wrapper_ab4920 {
   background: rgba(0, 0, 0, 0.5);
@@ -4924,7 +4926,7 @@ code {
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .embed_b0068a a > code.inline {
-  color: var(--enbedtext-color);
+  color: var(--embedtext-color);
 }
 .embed_b0068a .embedFooterText_b0068a {
   color: hsla(0, 0%, 100%, 0.5);
