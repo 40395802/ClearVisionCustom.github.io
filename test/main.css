@@ -11,7 +11,6 @@
   --maintext-color: hsla(0, 0%, 100%, 0.7);
   --description-text: "6.9.0";
   --descriptiontext-color: hsla(0, 0%, 100%, 0.3);
-  --friendbox-shadow: #2780e6;
   --channel-unread: var(--main-color);
   --channel-color: rgba(255, 255, 255, 0.3);
   --muted-color: rgba(255, 255, 255, 0.1);
@@ -3137,7 +3136,7 @@ textarea::-webkit-scrollbar {
   border: none;
 }
 .addFriendInputWrapper_de812f:focus-within {
-  box-shadow: 0 0 2px 2px var(--friendbox-shadow);
+  box-shadow: 0 0 2px 2px var(--main-color);
 }
 .addFriendInputWrapper_de812f .input_f8bc55 {
   background-color: transparent;
